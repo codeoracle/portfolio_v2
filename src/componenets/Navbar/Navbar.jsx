@@ -1,5 +1,5 @@
 import './navbar.scss'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -9,13 +9,13 @@ const Navbar = () => {
             <div className="navWrap">
 
             <div className="logoWrap">
-            <Link to={'/'} className="logo">ym.</Link>
+            <NavLink to={'/'} className="logo">ym.</NavLink>
             </div>
 
       <nav className="navbarList">
-        <Link to={'/'} className="navbarItem active">Work</Link>
-        <Link to={'/about'} className="navbarItem">About</Link>
-        <Link to={'https://drive.google.com/file/d/1ng6UosumF9XRRxRet1Q3E93F1nc4ZW7h/view?usp=sharing'} className="navbarItem" target='_blank'>Resume</Link>
+        <NavLink to={'/'} className="navbarItem active">Work</NavLink>
+        <NavLink to={'/about'} className="navbarItem">About</NavLink>
+        <Link to={'https://drive.google.com/file/d/1hWKj1WHv2NjM0YG4YJ7oP4ya4wuaUdNz/view?usp=sharing'} className="navbarItem" target='_blank'>Resume</Link>
       </nav>
             </div>
 

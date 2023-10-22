@@ -6,6 +6,7 @@ import Work from "./pages/Work/Work"
 import About from "./pages/About/About"
 import Footer from "./componenets/Footer/Footer"
 import  './App.css'
+import ScrollToTop from './componenets/ScrollToTop/ScrollToTop';
 
 const App = () => {
 
@@ -30,6 +31,7 @@ const App = () => {
   return (
 
     <BrowserRouter>
+    <ScrollToTop/>
     <>
     {loading && <Loading />}
      <Navbar/>
