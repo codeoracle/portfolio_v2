@@ -1,0 +1,238 @@
+$small: 900px;
+$medium: 1200px;
+
+.work{
+margin-left: 13%;
+margin-right: 14%;
+margin-top: 4%;
+overflow: hidden;
+
+@media screen and (max-width: $small) {
+margin-left: 10%;
+margin-right: 11%;
+margin-top: 10%;
+}
+@media screen and (max-width: $medium) {
+margin-top: 5%;
+ }
+
+.heroWrap{
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    // justify-content: center;
+    
+    .heroContent{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    // border: 1px solid red;
+
+ @media screen and (max-width: $small) {
+
+max-width: 100%;
+                }
+@media screen and (max-width: $medium) {
+    display: flex;
+    flex-wrap: nowrap;
+ }
+    
+    .title{
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+    max-width: 80%;
+
+ @media screen and (max-width: $small) {
+font-size: 18px;
+max-width: 100%;
+margin-top: 15%;
+                }
+@media screen and (max-width: $medium) {
+ }
+    
+    .stong{
+    color: #FB543A;
+    font-size: 28px;
+    font-weight: 600;
+
+ @media screen and (max-width: $small) {
+font-size: 18px;
+max-width: 100%;
+                }
+    }
+    }
+    .descWrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+
+@media screen and (max-width: $small) {
+        font-size: 14px;
+        max-width: 100%;
+        margin-bottom: 15%;
+    }
+
+    @media screen and (max-width: $medium) {
+        margin-bottom: 10%;
+    }
+    
+    .desc{
+    display: flex;
+    align-items: center;
+
+    .icon{
+@media screen and (max-width: $small) {
+        display: none;
+    }
+@media screen and (max-width: $medium) {
+        display: none;
+    }
+    }
+    
+    .point{
+    color: #000000;
+        
+    }
+    
+    }
+    
+    }
+    }
+
+    .heroImage{
+
+width: 25rem;
+
+@media screen and (max-width: $small) {
+width: 20rem;
+}
+
+.heroImg {
+width: 25rem;
+border-radius: 10px;
+object-fit: fill;
+        
+@media screen and (max-width: $small) {
+width: 17rem;
+}
+        
+}
+    }
+
+    }
+}
+
+.projectsContainer{
+margin-top: 13%;
+margin-bottom: 5%;
+// overflow: hidden;
+
+.projects{
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+
+.projectHeader{
+font-weight: 600;
+
+@media screen and (max-width: $small) {
+margin-top: 10%;
+font-size: 24px;
+    }
+}
+.projectWrap{
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+ gap: 60px;
+
+@media screen and (max-width: $small) {
+grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+    }
+
+.project{
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+.proImg{
+width: 90%;
+height: 60%;
+object-fit: cover;
+border-radius: 10px;
+transition: all .3s;
+cursor: pointer;
+
+&:hover{
+filter: brightness(0.7);
+}
+
+@media screen and (max-width: $small) {
+width: 65%;
+height: 60%;
+object-fit: cover;
+
+    }
+}
+.proTitle{
+margin-top: 30px;
+font-size: 24px;
+font-weight: bold;
+color: #a52612;
+text-decoration: none;
+
+@media screen and (max-width: $small) {
+font-size: 20px;
+
+}
+}
+.prodesc{
+font-size: 18px;
+font-weight: 400;
+color: #808080;
+
+@media screen and (max-width: $small) {
+font-size: 16px;
+max-width: 70%;
+}
+}
+.buttons{
+display: flex;
+align-items: center;
+gap: 40px;
+margin-top: 15px;
+
+.link{
+color: gray;
+font-size: 20px;
+font-weight: 600;
+text-decoration: none;
+border-radius: 5px;
+
+&:hover{
+color: #a52612;
+}
+
+@media screen and (max-width: $small) {
+font-size: 18px;
+font-weight: 600;
+}
+}
+}
+}
+}
+}
+
+}
+}

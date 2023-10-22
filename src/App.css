@@ -1,0 +1,5 @@
+/* Apply this style when the class 'swipe-left' is added to the body */
+.swipe-left .page-content {
+  transform: translateX(-100%); /* Slide the content to the left */
+  transition: transform 0.3s ease-out; /* Add a smooth transition effect */
+}
