@@ -2,19 +2,19 @@ import AdminHotel from '/img/projects/adminhotel.png'
 import Booking from '/img/projects/booking.png'
 import Fotohub from '/img/projects/fotohub.png'
 import Hoping from '/img/projects/hoping.png'
-import medOn from '/img/projects/med-on.png'
+import openHealth from '/img/projects/open-health.png'
 import Moviebox from '/img/projects/moviebox.png'
 import Meta from '/img/certificates/Meta-cert.png'
 import Gomycode from '/img/certificates/certificate.png'
 
 export const Projects = [
-    {
+      {
         id: 1,
-        title: 'MovieBox',
-        desc: 'A web app for an extensive movies directory and trailers.',
-        img: Moviebox,
-        git: 'https://github.com/codeoracle/movie_app_2',
-        demo: 'https://yunus-hng-task2.netlify.app/',
+        title: 'Open Health',
+        desc: 'Utilizing AI to provides quick and accurate symptom analysis.',
+        img: openHealth,
+        git: 'https://github.com/codeoracle/Open-Health-client',
+        demo: 'https://open-health.netlify.app/',
     },
     {
         id: 2,
@@ -26,6 +26,14 @@ export const Projects = [
     },
     {
         id: 3,
+        title: 'MovieBox',
+        desc: 'A web app for an extensive movies directory and trailers.',
+        img: Moviebox,
+        git: 'https://github.com/codeoracle/movie_app_2',
+        demo: 'https://yunus-hng-task2.netlify.app/',
+    },
+    {
+        id: 4,
         title: 'Hotel Reservation',
         desc: 'Seamless hotel reservation app for hotel booking.',
         img: Booking,
@@ -33,20 +41,12 @@ export const Projects = [
         demo: 'https://dainty-beignet-15808b.netlify.app/',
     },
     {
-        id: 4,
+        id: 5,
         title: 'Hotel Admin App',
         desc: 'Manage reservations and bookings from hotel reservation app',
         img: AdminHotel,
         git: 'https://github.com/codeoracle/Hotel-Admin',
         demo: 'https://inquisitive-cactus-caee94.netlify.app/',
-    },
-    {
-        id: 5,
-        title: 'Med On-d-Go',
-        desc: 'Utilizing AI to provides quick and accurate symptom analysis.',
-        img: medOn,
-        git: 'https://github.com/codeoracle/med-on-d-go',
-        demo: 'https://med-on-d-go.onrender.com/',
     },
     {
         id: 6,
