@@ -10,8 +10,8 @@ import Gomycode from '/img/certificates/certificate.png'
 export const Projects = [
       {
         id: 1,
-        title: 'Open Health',
-        desc: 'Utilizing AI to provides quick and accurate symptom analysis.',
+        title: 'Open Health AI',
+        desc: 'Provides quick and accurate symptom analysis.',
         img: openHealth,
         git: 'https://github.com/codeoracle/Open-Health-client',
         demo: 'https://open-health.netlify.app/',
